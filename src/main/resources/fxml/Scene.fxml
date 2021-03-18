@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.IndovinaNumero.FXMLController">
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.IndovinaNumero.FXMLController">
    <top>
       <Label text="Indovina il Numero!" BorderPane.alignment="CENTER" />
    </top>
@@ -55,6 +55,6 @@
       </VBox>
    </center>
    <bottom>
-      <TextArea fx:id="txtRisultato" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+      <TextArea fx:id="txtRisultato" disable="true" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
    </bottom>
 </BorderPane>
